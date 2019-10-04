@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Avatar {
+  position: fixed;
+  margin-top: 3em;
+  top: 0px;
+}
+
+.App-link {
+  color: #09d3ac;
+  position: fixed; 
+  margin: 2em; 
+  bottom: 0px; 
+  left: 0px; 
+  animation: 1.5s ease-in-out 0s infinite normal none running link-to-git; 
+  z-index: 6;
+}
+a:visited {
+  color: #09d3ac;
+}
+
+@keyframes link-to-git {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(0.35em); }
+  100% { transform: translateY(0); }
+}
